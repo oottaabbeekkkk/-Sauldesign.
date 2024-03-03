@@ -1,0 +1,432 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: system-ui;
+}
+*::before, *::after {
+    box-sizing: inherit;
+}
+span, a, label {
+    display: inline-block;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.r{
+    color: white;
+}
+.hammasi{
+    position: relative;
+    background-color: #222831;
+}
+.alari{
+    padding: 10px;
+    background-color: #333841;
+    border-radius: 50%;
+    position: absolute;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+.ttt{
+    background-color: whitesmoke;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+.a{
+    border-radius: 20px;
+    text-decoration: none;
+    width: 100%;
+    color: white;
+    padding: 10px;
+}
+.a:hover{
+    background-color: black;
+}
+.ttt{
+    background: transparent;
+}
+.a1{
+    text-decoration: none;
+    width: 100%;
+    padding: 5px 10px;
+    color: white;
+}
+.a1:hover{
+    color: #00ADB5;
+}
+.part1{
+    width: 100px;
+    position: relative;
+}
+.part1:hover .ttt{
+    display: block;
+}
+.box1{
+    width: 50%;
+}
+.box2{
+    width: 40%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+}
+.all{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #222831;
+    color: white;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    border-bottom: 1px solid  black;
+}
+.spnq{
+    font-size: 60px;
+    color: white;
+}
+.spnw{
+    color: #00ADB5;
+}
+.nnn{
+    /* background-image: url("doodles\ mixed\ round.png"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 30px;
+    background-position: center;
+}
+.pic2{
+    /* margin-top: 200px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+}
+.box3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 60px;
+    padding: 50px;
+    align-items: center;
+    position: relative;
+}
+.ghgh{
+    position: absolute;
+    top: 360px;
+    right: 180px;
+}
+.mmm{
+    margin: auto;
+}
+.pic1{
+    width: 10%;
+    height: 200px;
+    padding: 0px 30px;
+}
+.all1{
+    padding: 32px;
+    background-color: #222831;
+}
+.btn{
+    background-color: #00ADB5;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+.btn1{
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+    background-color: #333841;
+}
+.btnlar{
+    width: 100%;
+    padding: 5px;
+}
+.xar {
+    width: 35%;
+    padding: 5px;
+    color: white;
+}
+.bir {
+    width: 40%;
+    padding: 5px;
+}
+.all2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    padding: 100px 50px;
+    background-color: #222831;
+}
+.bmbm{
+    position: absolute;
+    right: 270px;
+    top: 200px;
+}
+.picc{
+    width: 100%;
+}
+.add{
+    font-size: 45px;
+    font-family: cursive
+}
+.sapn{
+    color:  #00ADB5;
+}
+.plar{
+    font-size: 18px;
+}
+.input{
+    padding: 10px 20px;
+    border: transparent;
+    background-color: #333841;
+    border-radius: 10px;
+}
+.picv{
+    max-width: 100%;
+}
+.leble{
+    font-size: 23px;
+}
+.lklk{
+    width: 40%;
+}
+.ljlj{
+    width: 50%;
+}
+.btrn{
+    background-color: #00ADB5;
+    padding: 8px;
+    color: white;
+    border: transparent;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+.forms{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.all4{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #222831;
+    padding: 50px;
+}
+.kezgo{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 50%;
+}
+.v{
+    color: white;
+    font-size: 20px;
+}
+.pubg{
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px 30px;
+}
+.khkh{
+    font-size: 25px;
+    color: white;
+}
+.m1{
+    color: blue;
+    margin-right: 10px;
+}
+.m2{
+    color: skyblue;
+    margin-right: 10px;
+}
+.m3{
+    color: red;
+    margin-right: 10px;
+}
+.all5{
+    position: relative;
+}
+.geta{
+    bottom: 10px;
+    right: 10px;
+    position: absolute;
+    color: white;
+}
+.v{
+    color: #00ADB5;
+    margin-left: 10x;
+}
+.spon{
+    font-size: 23px;
+    color: white;
+}
+
+
+/* media */
+
+@media (max-width:700px){
+    .box1{
+        width: 100%;
+        text-align: center;
+    }
+    .box2{
+        width: 100%;
+    }
+    .box3{
+        width: 100%;
+    }
+}
+@media (max-width:500px){
+    .mmm{
+        width: 100%;
+    }
+    .ghgh{
+        top: 70px;
+    }
+    .all4{
+        width: 100%;
+        padding: 5px;
+    }
+    .ljlj{
+        width: 100%;
+    }
+    .klkl{
+        width: 100%;
+    }
+    .forms{
+        margin: auto;
+    }
+    .pic2{
+        width: 100%;
+        right: 50px;
+        top: 0px;
+
+    }
+    .plar{
+        font-size: 15px;
+    }
+    .khkh{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .ghgh{
+        margin: auto;
+        width: 100%;
+        right: 25px;
+        top: 70px;
+    }
+    .pubg{
+        margin: auto;
+        text-align: center;
+    }
+    .gtgt{
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+    }
+    .spon{
+        width: 100%;
+    }
+    .khkh{
+        width: 100%;
+    }
+}
+@media (max-width:300px){
+    .khkh{
+        width: 100%;
+    }
+    .add{
+        font-size: 20px;
+    }
+    .spnq{
+        width: 100%;
+        font-size: 23px;
+    }
+    .mmm{
+        width: 100%;
+    }
+    .ghgh{
+        top: 70px;
+    }
+    .pubg{
+        margin: auto;
+        text-align: center;
+    }
+    .gtgt{
+        padding: 5px;
+        margin: auto;
+        text-align: center;
+    }
+    .spon{
+        width: 100%;
+    }
+    .khkh{
+        width: 100%;
+    }
+    .picr{
+        width: 20%;
+        text-align: center;
+    }
+    .bor{
+        padding: 5px;
+    }
+    .all4{
+        width: 100%;
+        padding: 5px;
+    }
+    .ljlj{
+        width: 100%;
+    }
+    .klkl{
+        width: 100%;
+    }
+    .nnn{
+        width: 100%;
+    }
+    .pol{
+        width: 100%;
+    }
+    .xar{
+        width: 100%;
+    }
+    .all2{
+        padding: 5px;
+    }
+    .class{
+        width: 10%;
+        display: none;
+    }
+    .pol{
+        display: none;
+    }
+
+    .picc{
+        display: none;
+    }
+}
+@media (max-width:250px){
+    .ghgh{
+        top: 80px;
+    }
+}
